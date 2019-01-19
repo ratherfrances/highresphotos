@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hi-Res Images</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 30px;
+		}
+		h1 {
+			font-weight: normal;
+			font-size: 50px;
+			color: #e07360;
+			margin-top: 20px;
+			margin-bottom: 30px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #ddd;
+		}
+		h2 {
+			font-weight: normal;
+			color: #555;
+			font-size: 16px;
+			text-transform: uppercase;
+			margin-top: 0;
+			margin-bottom: 40px;
+		}
+		img {
+			margin-top: 40px;
+		}
+		.logo {
+			width:105px;
+		}
+	</style>
+</head>
+<body>
+	<main role="main">
+		<h1>Investigating Hi-Res Images</h1>
+
+		<img src=images/logox2x.png" height="36" width"105">
+		<h2>This is a low-res (@1x) image displayed at its native size</h2>
+
+		<img= src="images/logo@2x.png" height="72" width="210">
+		<h2>This is a hi-res (@2x) image displayed at its native size</h2>
+
+		<img src="image/logo@2x.png" class="logo">
+		<h2>This is a hi-res (@2x) image displayed at half its native size</h2>
+	</main>
+</body>
+</html>
